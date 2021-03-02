@@ -1,0 +1,73 @@
+html {
+    scroll-behavior: smooth; }
+  
+body {
+background-color: #fafafa;
+font-family: "Open Sans Condensed", sans-serif;
+font-size: 1.1rem;
+color: #626567;
+margin: 0;
+padding: 0;
+position: relative; }
+
+::-moz-selection {
+background-color: #d4bdb8;
+color: black; }
+
+.suscribe {
+margin-top: 3rem; }
+.suscribe form .suscribe-title {
+    font-size: 1.3rem;
+    font-family: "Nunito", sans-serif;
+    font-variant: small-caps;
+    color: #89c4ad;
+    text-shadow: 5px 5px 3px #d1f2eb;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 600; }
+.suscribe form .boxes {
+    color: #626567;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 2px; }
+    .suscribe form .boxes .obligatorio {
+    color: #ad1a1a; }
+    .suscribe form .boxes input {
+    font-size: 0.9rem;
+    border: none;
+    border-bottom: 1px solid #dbdbd8;
+    border-radius: 0px; }
+    .suscribe form .boxes small {
+    letter-spacing: 0px; }
+.suscribe form .suscribeBtn {
+    display: block;
+    background-color: #292929;
+    margin: 1rem auto;
+    width: 50%;
+    color: white;
+    letter-spacing: 2px; }
+    .suscribe form .suscribeBtn:hover {
+    background-color: #191919; }
+.suscribe .block-suscribe {
+    text-align: center; }
+    .suscribe .block-suscribe p {
+    margin-bottom: 0rem; }
+
+@media screen and (min-width: 768px) {
+.suscribe {
+    margin-top: 3rem; }
+    .suscribe form {
+    width: 60%;
+    margin: 0rem auto; }
+    .suscribe form .suscribe-title {
+        font-size: 1.5rem; }
+    .suscribe form .boxes {
+        font-size: 1rem; }
+        .suscribe form .boxes input {
+        font-size: 1rem; }
+    .suscribe form .suscribeBtn {
+        width: 30%;
+        font-size: 1rem; }
+    .suscribe form .block-suscribe {
+        font-size: 1.1rem; } }
+
